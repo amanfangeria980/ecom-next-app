@@ -8,7 +8,10 @@ const SearchBar = () => {
     const router = useRouter();
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        if (searchInput) router.push(`/search/${searchInput}`);
+        if (searchInput) {
+            const formattedQuery = searchInput.replace(/\s+/g, "+");
+            router.push(`/search?q=${formattedQuery}`);
+        }
     };
     return (
         <form
