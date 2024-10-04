@@ -1,14 +1,31 @@
+import fetchSearch from "@/lib/fetchSearch";
+import { ProductInformation } from "@/types";
 import React from "react";
 interface SearchProps {
     searchParams: {
         q: string;
     };
 }
-const page = ({ searchParams: { q } }: SearchProps) => {
+const page = async ({ searchParams: { q } }: SearchProps) => {
     // console.log(q);
     // fetch the search results
-    // const url=https://serpapi.com/search.json?api_key=4d2c51a538149136332fcdb3aa8e0050b872e8ced875e24b19310a061561b75c&engine=walmart&query=Coffee
-    return <div>Search Page</div>;
+    const result = await fetchSearch(q);
+    // console.log(result);
+    return (
+        <div className="p-10">
+            <h1 className="text-3xl font-bold mb-2">Results for {q}</h1>
+            <h2 className="mb-5 text-gray-400">
+                ({result?.search_information?.total_results} results)
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {result?.organic_results?.map((product: ProductInformation) => (
+                    <li key={product.product_id}>
+                        <p>{product.title}</p>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 };
 
 export default page;
