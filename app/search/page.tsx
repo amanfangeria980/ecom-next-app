@@ -1,3 +1,4 @@
+import Product from "@/components/Product";
 import fetchSearch from "@/lib/fetchSearch";
 import { ProductInformation } from "@/types";
 import React from "react";
@@ -20,7 +21,7 @@ const page = async ({ searchParams: { q } }: SearchProps) => {
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
                 {result?.organic_results?.map((product: ProductInformation) => (
                     <li key={product.product_id}>
-                        <p>{product.title}</p>
+                        <Product product={product} />
                     </li>
                 ))}
             </ul>
