@@ -3,19 +3,16 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
 interface Props {
     product: ProductInformation;
 }
+
 const Product = ({ product }: Props) => {
     console.log(product);
-    return (
-        <Link
-            href={{
-                pathname: "/product",
-                query: { url: product.product_page_url },
-            }}
-            className="flex flex-col relative border rounded-md h-full p-5"
-        >
+
+    const productContent = (
+        <>
             <Image
                 src={product.thumbnail}
                 alt={product.title}
@@ -32,12 +29,29 @@ const Product = ({ product }: Props) => {
 
             {product.rating && (
                 <p className="text-yellow-500">
-                    {product.rating}*
+                    {product.rating}
                     <span className="text-gray-400 ml-2">
                         ({product.reviews})
                     </span>
                 </p>
             )}
+        </>
+    );
+
+    return product.out_of_stock ? (
+        <div className="flex flex-col relative border rounded-md h-full p-5 opacity-50 cursor-not-allowed">
+            {productContent}
+            <p className="text-red-500">Out of Stock</p>
+        </div>
+    ) : (
+        <Link
+            href={{
+                pathname: "/product",
+                query: { url: product.product_page_url },
+            }}
+            className="flex flex-col relative border rounded-md h-full p-5"
+        >
+            {productContent}
         </Link>
     );
 };
