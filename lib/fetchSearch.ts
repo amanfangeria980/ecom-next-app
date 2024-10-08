@@ -1,4 +1,4 @@
-import { searchResult } from "@/types";
+import { searchResult } from "@/lib/searchTypings";
 async function fetchSearch(searchTerm: string) {
     try {
         const key = process.env.SERP_API_KEY;

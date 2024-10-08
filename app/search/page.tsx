@@ -1,6 +1,6 @@
 import Product from "@/components/Product";
 import fetchSearch from "@/lib/fetchSearch";
-import { ProductInformation } from "@/types";
+import { ProductInformation } from "@/lib/searchTypings";
 import React from "react";
 interface SearchProps {
     searchParams: {

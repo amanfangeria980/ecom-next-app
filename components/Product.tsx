@@ -1,4 +1,4 @@
-import { ProductInformation } from "@/types";
+import { ProductInformation } from "@/lib/searchTypings";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
