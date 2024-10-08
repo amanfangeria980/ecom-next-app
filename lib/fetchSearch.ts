@@ -1,4 +1,4 @@
-import { searchResult } from "@/lib/searchTypings";
+import { SearchResult } from "@/lib/searchTypings";
 async function fetchSearch(searchTerm: string) {
     try {
         const key = process.env.SERP_API_KEY;
@@ -13,7 +13,7 @@ async function fetchSearch(searchTerm: string) {
         });
         if (!res.ok) throw new Error(`Error: ${res.statusText}`);
         const json = await res.json();
-        const data: searchResult = json;
+        const data: SearchResult = json;
         return data;
     } catch (err) {
         console.error("Some error occured");
