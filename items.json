@@ -1,0 +1,796 @@
+{
+    "data": {
+        "search_metadata": {
+            "id": "6705219c2bab90ecbe506edb",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/d726bd6d3cee085a/6705219c2bab90ecbe506edb.json",
+            "created_at": "2024-10-08 12:12:12 UTC",
+            "processed_at": "2024-10-08 12:12:12 UTC",
+            "walmart_product_url": "https://www.walmart.com/ip/147423982?",
+            "raw_html_file": "https://serpapi.com/searches/d726bd6d3cee085a/6705219c2bab90ecbe506edb.html",
+            "prettify_html_file": "https://serpapi.com/searches/d726bd6d3cee085a/6705219c2bab90ecbe506edb.prettify",
+            "total_time_taken": 4.91
+        },
+        "search_parameters": {
+            "product_id": "147423982",
+            "engine": "walmart_product",
+            "device": "desktop"
+        },
+        "search_information": {
+            "location": {
+                "postal_code": "95829",
+                "province_code": "CA",
+                "city": "Sacramento",
+                "store_id": "3081"
+            }
+        },
+        "product_result": {
+            "us_item_id": "147423982",
+            "product_id": "34Y0BVR8X5ZD",
+            "variants": ["actual_color-navy", "clothing_size-m"],
+            "upc": "696777889575",
+            "title": "Men's Henley 3-Button Pullover Cotton T-Shirt Long Sleeve Crew Neck",
+            "short_description_html": "Men's Long Sleeve Henley 3 Button Pullover Cotton T-Shirt Crew Neck",
+            "detailed_description_html": "<ul> <li>Long Sleeves</li> <li>Lightweight</li> <li>100% Cotton</li> </ul>",
+            "categories": [
+                {
+                    "name": "Clothing",
+                    "url": "https://www.walmart.com/cp/clothing/5438"
+                },
+                {
+                    "name": "Mens Clothing",
+                    "url": "https://www.walmart.com/cp/mens-clothing/133197"
+                },
+                {
+                    "name": "Mens Shirts",
+                    "url": "https://www.walmart.com/cp/mens-shirts/6286551"
+                },
+                {
+                    "name": "Mens T-Shirts",
+                    "url": "https://www.walmart.com/cp/mens-t-shirts/3187021"
+                }
+            ],
+            "seller_id": "B450DDF0F0E543BCA24F386B6CA384D1",
+            "seller_name": "Blended",
+            "specification_highlights": [
+                {
+                    "key": "Features",
+                    "value": "Lightweight",
+                    "display_name": "Features"
+                },
+                {
+                    "key": "Clothing Size",
+                    "value": "M",
+                    "display_name": "Clothing Size"
+                },
+                {
+                    "key": "Sleeve Length Style",
+                    "value": "Long Sleeve",
+                    "display_name": "Sleeve Length Style"
+                },
+                {
+                    "key": "Fabric Content",
+                    "value": "100% Cotton",
+                    "display_name": "Fabric Content"
+                },
+                {
+                    "key": "Pattern",
+                    "value": "Solid Print",
+                    "display_name": "Pattern"
+                },
+                {
+                    "key": "Gender",
+                    "value": "Male",
+                    "display_name": "Gender"
+                },
+                {
+                    "key": "Clothing Neck Style",
+                    "value": "Crew Neck",
+                    "display_name": "Clothing Neck Style"
+                },
+                {
+                    "key": "Brand",
+                    "value": "Blended",
+                    "display_name": "Brand"
+                },
+                {
+                    "key": "Color",
+                    "value": "Navy",
+                    "display_name": "Color"
+                }
+            ],
+            "product_type_id": "891",
+            "product_type": "T-Shirts",
+            "manufacturer": "Blended",
+            "product_page_url": "https://www.walmart.com/ip/147423982",
+            "price_map": {
+                "price": 16.98,
+                "currency": "USD"
+            },
+            "min_quantity": 1,
+            "max_quantity": 7,
+            "in_stock": true,
+            "images": [
+                "https://i5.walmartimages.com/seo/Men-s-Henley-3-Button-Pullover-Cotton-T-Shirt-Long-Sleeve-Crew-Neck_7bb3f095-50f9-4bcb-8c6d-1ca9dc73344f.fefc4d4e0c827753ee2a15ede62715a3.jpeg",
+                "https://i5.walmartimages.com/asr/fb3cec04-4fbc-4be2-bea6-295f18e20a1c.7c14bfdcaf41d32294fd72c48fb667d0.jpeg"
+            ],
+            "reviews": 49,
+            "rating": 4.36734693877551,
+            "offer_id": "90623A01F87340ED9C0B789ABC968ABD",
+            "offer_type": "ONLINE_ONLY",
+            "offers": [
+                {
+                    "seller_id": "B450DDF0F0E543BCA24F386B6CA384D1",
+                    "catalog_seller_id": 4085,
+                    "seller_name": "Valley Holdings LLC",
+                    "seller_display_name": "Blended",
+                    "price": 16.98
+                }
+            ],
+            "shipping_price": 0,
+            "delivery_option": {
+                "arrival_date": 1729029540000,
+                "display_arrival_date": "2024-10-15T21:59:00.000Z"
+            },
+            "variant_swatches": [
+                {
+                    "name": "Color",
+                    "available_selections": [
+                        {
+                            "id": "actual_color-black",
+                            "name": "Black",
+                            "swatch_image_url": "https://i5.walmartimages.com/asr/ea95427d-86eb-41c0-bf9f-9abbacbb4303.1e7130204da3d4dc6de339c4b4f395f5.jpeg",
+                            "products": [
+                                {
+                                    "product_id": "7F3I09QOGAEE",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=7F3I09QOGAEE",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "3P607DL0IWDK",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3P607DL0IWDK",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "72GHMGNOTX50",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=72GHMGNOTX50",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "4TVWAEKE1OXY",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=4TVWAEKE1OXY",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "actual_color-heathergrey",
+                            "name": "Heather Grey",
+                            "swatch_image_url": "https://i5.walmartimages.com/asr/4314936c-c916-4ab8-a623-8f806efa75a3.f212dfaefd347384d886c237fe73f2d3.jpeg",
+                            "products": [
+                                {
+                                    "product_id": "7KVV82PLSGBK",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=7KVV82PLSGBK",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "4778TJI9UW7K",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=4778TJI9UW7K",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD",
+                                        "was_price": {
+                                            "price": 19.99,
+                                            "price_string": "$19.99",
+                                            "currency_unit": "USD"
+                                        }
+                                    }
+                                },
+                                {
+                                    "product_id": "6YSW50J2OU4J",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=6YSW50J2OU4J",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "1G7PH6HNOC6P",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=1G7PH6HNOC6P",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "actual_color-navy",
+                            "name": "Navy",
+                            "swatch_image_url": "https://i5.walmartimages.com/asr/166c47b2-6634-48da-8fdf-02f1999720dd.9424daf2eb1476946fe7b82a54e1289a.jpeg",
+                            "products": [
+                                {
+                                    "product_id": "3RS36T2O9IVO",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3RS36T2O9IVO",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "3RQ40PVH74VM",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3RQ40PVH74VM",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "58AQ1KFN5NHG",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=58AQ1KFN5NHG",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "34Y0BVR8X5ZD",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=34Y0BVR8X5ZD",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "actual_color-white",
+                            "name": "White",
+                            "swatch_image_url": "https://i5.walmartimages.com/asr/fcc5153d-8d22-4f4c-96f5-ea4a817a2a65.4a99d19467bcbbf75ad78ccd7d10900a.jpeg",
+                            "products": [
+                                {
+                                    "product_id": "6ID2I9HH36P1",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=6ID2I9HH36P1",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "281WFEHKQZB4",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=281WFEHKQZB4",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "52B1FAX7DS6U",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=52B1FAX7DS6U",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD",
+                                        "was_price": {
+                                            "price": 19.99,
+                                            "price_string": "$19.99",
+                                            "currency_unit": "USD"
+                                        }
+                                    }
+                                },
+                                {
+                                    "product_id": "5JVMUM2OF66E",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=5JVMUM2OF66E",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Clothing Size",
+                    "available_selections": [
+                        {
+                            "id": "clothing_size-s",
+                            "name": "S",
+                            "products": [
+                                {
+                                    "product_id": "4778TJI9UW7K",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=4778TJI9UW7K",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD",
+                                        "was_price": {
+                                            "price": 19.99,
+                                            "price_string": "$19.99",
+                                            "currency_unit": "USD"
+                                        }
+                                    }
+                                },
+                                {
+                                    "product_id": "52B1FAX7DS6U",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=52B1FAX7DS6U",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD",
+                                        "was_price": {
+                                            "price": 19.99,
+                                            "price_string": "$19.99",
+                                            "currency_unit": "USD"
+                                        }
+                                    }
+                                },
+                                {
+                                    "product_id": "58AQ1KFN5NHG",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=58AQ1KFN5NHG",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "4TVWAEKE1OXY",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=4TVWAEKE1OXY",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-s"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.48,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "clothing_size-m",
+                            "name": "M",
+                            "products": [
+                                {
+                                    "product_id": "6ID2I9HH36P1",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=6ID2I9HH36P1",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "72GHMGNOTX50",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=72GHMGNOTX50",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "34Y0BVR8X5ZD",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=34Y0BVR8X5ZD",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-m"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "clothing_size-l",
+                            "name": "L",
+                            "products": [
+                                {
+                                    "product_id": "7KVV82PLSGBK",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=7KVV82PLSGBK",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "7F3I09QOGAEE",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=7F3I09QOGAEE",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "5JVMUM2OF66E",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=5JVMUM2OF66E",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-l"
+                                    ],
+                                    "in_stock": false,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "clothing_size-xl",
+                            "name": "XL",
+                            "products": [
+                                {
+                                    "product_id": "6YSW50J2OU4J",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=6YSW50J2OU4J",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "281WFEHKQZB4",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=281WFEHKQZB4",
+                                    "variants": [
+                                        "actual_color-white",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "3RQ40PVH74VM",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3RQ40PVH74VM",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-xl"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 16.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "clothing_size-2x",
+                            "name": "2X",
+                            "products": [
+                                {
+                                    "product_id": "3RS36T2O9IVO",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3RS36T2O9IVO",
+                                    "variants": [
+                                        "actual_color-navy",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "3P607DL0IWDK",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=3P607DL0IWDK",
+                                    "variants": [
+                                        "actual_color-black",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                },
+                                {
+                                    "product_id": "1G7PH6HNOC6P",
+                                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=walmart_product&product_id=1G7PH6HNOC6P",
+                                    "variants": [
+                                        "actual_color-heathergrey",
+                                        "clothing_size-2x"
+                                    ],
+                                    "in_stock": true,
+                                    "price_map": {
+                                        "price": 17.98,
+                                        "currency": "USD"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "early_access_event": false,
+            "walmart_plus_member": false
+        },
+        "reviews_results": {
+            "ratings": [
+                {
+                    "stars": 1,
+                    "count": 3
+                },
+                {
+                    "stars": 2,
+                    "count": 2
+                },
+                {
+                    "stars": 3,
+                    "count": 3
+                },
+                {
+                    "stars": 4,
+                    "count": 7
+                },
+                {
+                    "stars": 5,
+                    "count": 34
+                }
+            ],
+            "reviews": {
+                "rating": 4.4,
+                "count": 49,
+                "top_positive": {
+                    "title": "looks great",
+                    "text": "I gave my son slender 19yo son three of these for Christmas, and he looks great in them. Definitely would buy again",
+                    "rating": 5,
+                    "positive_feedback": 0,
+                    "negative_feedback": 0,
+                    "review_submission_time": "3/15/2024",
+                    "user_nickname": "Kathryn",
+                    "customer_type": ["VerifiedPurchaser"]
+                },
+                "top_negative": {
+                    "title": "DON'T EVEN THINK ABOUT IT!!!! RUN AWAY QUICK!!!!",
+                    "text": "BUYER BEWARE THIS IS A SUBSTANDARD SHIRT!!!! RUNS WAY TO SMALL, THE QUALITY IS CRAP, AND YOU CAN SEE THRU THE MATERIAL. THE SLEEVE CUFFS ARE ALMOST AS BIG IN DIAMETER AS THE NECK. RUN AWAY FROM THIS SELLER.",
+                    "rating": 1,
+                    "positive_feedback": 0,
+                    "negative_feedback": 0,
+                    "review_submission_time": "12/14/2020",
+                    "user_nickname": "Kirk",
+                    "customer_type": ["VerifiedPurchaser"]
+                },
+                "top_mentions": [
+                    {
+                        "name": "Appearance",
+                        "count": 4
+                    },
+                    {
+                        "name": "Comfort",
+                        "count": 3
+                    },
+                    {
+                        "name": "Quality",
+                        "count": 3
+                    },
+                    {
+                        "name": "Cotton",
+                        "count": 3
+                    },
+                    {
+                        "name": "Fit",
+                        "count": 3
+                    }
+                ],
+                "customer_reviews": [
+                    {
+                        "title": "looks great",
+                        "text": "I gave my son slender 19yo son three of these for Christmas, and he looks great in them. Definitely would buy again",
+                        "rating": 5,
+                        "review_submission_time": "3/15/2024",
+                        "user_nickname": "Kathryn",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "text": "My husband loves these shirts, very comfortsble!",
+                        "rating": 5,
+                        "review_submission_time": "12/31/2023",
+                        "user_nickname": "Sandra",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "title": "pullover shirt",
+                        "text": "Great quality for the money. Good color",
+                        "rating": 5,
+                        "review_submission_time": "1/1/2024",
+                        "user_nickname": "betty",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "text": "Purchased for work and very comfortable...",
+                        "rating": 5,
+                        "review_submission_time": "8/20/2023",
+                        "user_nickname": "Robert",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "title": "Best shirt on the market: its 100 percent cotton a",
+                        "text": "The only shirt design that has a low enough neck! Everyone wants to choke me to death with their crew necks!",
+                        "rating": 5,
+                        "review_submission_time": "10/14/2020",
+                        "user_nickname": "mraccess",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "title": "Good find.",
+                        "text": "Very nice shirt. Comfortable and looks durable. Sizes run a bit large, but is made out of 100% cotton. Would definitely buy another one.",
+                        "rating": 5,
+                        "review_submission_time": "12/29/2022",
+                        "user_nickname": "cathy",
+                        "customer_type": [
+                            "VerifiedPurchaser",
+                            "IncentivizedReviewYes"
+                        ]
+                    },
+                    {
+                        "title": "Runs small",
+                        "text": "For those considering this Henley shirt, I would suggest sizing up one size. Fortunately, I had ordered one larger size than I usually order, and upon trying the shirt on, I was glad that I had done so. This shirt runs one size small. Apart from that, it is a nice shirt, though it is lightweight.",
+                        "rating": 4,
+                        "review_submission_time": "9/28/2020",
+                        "user_nickname": "charis4u",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "text": "I like the cotton fabric and design just what I was looking for to wear around the house. Bought a medium like I always do. It's a snugger fit than I expected and I'm slender. Still comfortable but be careful about the size you buy",
+                        "rating": 4,
+                        "review_submission_time": "5/2/2020",
+                        "user_nickname": "Roger",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "text": "pretty light weight. too loose around the neck",
+                        "rating": 3,
+                        "review_submission_time": "1/11/2021",
+                        "user_nickname": "M",
+                        "customer_type": ["VerifiedPurchaser"]
+                    },
+                    {
+                        "title": "DON'T EVEN THINK ABOUT IT!!!! RUN AWAY QUICK!!!!",
+                        "text": "BUYER BEWARE THIS IS A SUBSTANDARD SHIRT!!!! RUNS WAY TO SMALL, THE QUALITY IS CRAP, AND YOU CAN SEE THRU THE MATERIAL. THE SLEEVE CUFFS ARE ALMOST AS BIG IN DIAMETER AS THE NECK. RUN AWAY FROM THIS SELLER.",
+                        "rating": 1,
+                        "review_submission_time": "12/14/2020",
+                        "user_nickname": "Kirk",
+                        "customer_type": ["VerifiedPurchaser"]
+                    }
+                ]
+            }
+        }
+    }
+}
