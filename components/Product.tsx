@@ -47,7 +47,7 @@ const Product = ({ product }: Props) => {
         <Link
             href={{
                 pathname: "/product",
-                query: { url: product.product_page_url },
+                query: { id: product.product_id },
             }}
             className="flex flex-col relative border rounded-md h-full p-5"
         >
