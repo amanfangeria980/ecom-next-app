@@ -44,7 +44,7 @@ interface ReviewResults {
     reviews: ReviewInformation;
 }
 
-interface ProductResult {
+export interface ProductResult {
     us_item_id: string;
     product_id: string;
     variants: string[];
