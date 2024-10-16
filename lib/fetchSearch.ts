@@ -2,10 +2,10 @@ import { SearchResult } from "@/lib/searchTypings";
 async function fetchSearch(searchTerm: string) {
     try {
         const key = process.env.SERP_API_KEY;
-        // const newUrl = new URL(
-        //     `https://serpapi.com/search.json?api_key=${key}&engine=walmart&query=${searchTerm}`
-        // );
-        const newUrl = "http://localhost:3001/data";
+        const newUrl = new URL(
+            `https://serpapi.com/search.json?api_key=${key}&engine=walmart&query=${searchTerm}`
+        );
+        // const newUrl = "http://localhost:3001/data";
         const res = await fetch(newUrl, {
             next: {
                 revalidate: 60 * 60,
