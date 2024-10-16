@@ -5,7 +5,7 @@ async function fetchSearch(searchTerm: string) {
         // const newUrl = new URL(
         //     `https://serpapi.com/search.json?api_key=${key}&engine=walmart&query=${searchTerm}`
         // );
-        const newUrl = "http://localhost:3000/data";
+        const newUrl = "http://localhost:3001/data";
         const res = await fetch(newUrl, {
             next: {
                 revalidate: 60 * 60,
