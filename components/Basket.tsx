@@ -57,7 +57,7 @@ const Basket = () => {
                 <p className="font-bold text-2xl text-right text-ecom mb-5">
                     Total: {basketTotal}
                 </p>
-                <Button className="mt-5 h-20 bg-ecom hover:bg-ecom/50">
+                <Button className="mt-5 h-20 bg-ecom hover:bg-ec om/50">
                     Checkout
                 </Button>
             </div>

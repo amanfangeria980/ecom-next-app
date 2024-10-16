@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
     return (
-        <div>
+        <div className="flex-1">
             <div className="w-full p-10 max-w-7xl mx-auto">
                 <div className="flex items-center space-x-2">
                     <ShoppingCartIcon className="w-10 h-10" />
