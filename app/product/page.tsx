@@ -10,6 +10,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
+import AddToCart from "@/components/AddToCart";
 
 interface Props {
     searchParams: {
@@ -66,6 +67,7 @@ const page = async ({ searchParams: { id } }: Props) => {
                     {product_result.price_map.price}
                 </p>
                 <div className="h-px bg-gray-300 my-2"></div>
+                <AddToCart product={product_result} />
                 <h3 className="font-bold text-xl pt-10">Specifications</h3>
 
                 <Table>

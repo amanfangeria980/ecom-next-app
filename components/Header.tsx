@@ -1,9 +1,14 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Grid2X2, Heart, LayoutGrid, ShoppingCart, User } from "lucide-react";
 import SearchBar from "./SearchBar";
+import { useCartStore } from "@/store";
+import getCartTotal from "@/lib/getCartTotal";
 const Header = () => {
+    const cart = useCartStore((state) => state.cart);
+    const total = getCartTotal(cart);
     return (
         <header className="flex flex-col md:flex-row bg-ecom px-10 py-7 space-x-5 items-center">
             <Link href={"/"} className="mb-5 md:mb-0">
@@ -57,8 +62,12 @@ const Header = () => {
                 >
                     <ShoppingCart size={20} />
                     <div>
-                        <p className="text-xs font-extralight">No Items</p>
-                        <p>$0.00</p>
+                        <p className="text-xs font-extralight">
+                            {cart.length > 0
+                                ? `${cart.length} items`
+                                : "No Items"}
+                        </p>
+                        <p>{total} </p>
                     </div>
                 </Link>
             </div>
